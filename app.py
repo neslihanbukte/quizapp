@@ -9,7 +9,6 @@ db.init_app(app)
 with app.app_context():
     db.create_all()
 
-# SORULARIN DOĞRU CEVAPLARI
 correct_answers = {
     "question1": "C",  # @bot.command()
     "question2": "C",  # @app.route()
